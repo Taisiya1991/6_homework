@@ -1,0 +1,100 @@
+*{
+  padding:0;
+  margin:0;
+}
+
+body{
+    font-family: “Lucida Sans Unicode”, “Lucida Grande”, sans-serif; /* Семейство шрифтов */
+    font-size: 11pt; /* Размер основного шрифта в пунктах  */
+    background-color: #FFFFFF; /* Цвет фона веб-страницы */
+    text-align: justify;
+    width: 866px;
+    height: 568px;
+  }
+
+
+  #header{
+    margin: auto;
+    color: #EB7E7F;
+  }
+
+  #container{
+  margin:auto;
+  margin-top: 30px;
+  width: 530px;
+  height: 420px;
+  }
+
+  h1{
+    font-family: “Lucida Sans Unicode”, “Lucida Grande”, sans-serif; /* Семейство шрифтов */
+    font-weight: normal; /* Нормальное начертание текста  */
+    text-align: left;
+    color: #27B4B6;
+    font-size: 130%;
+    text-align: center;
+  }
+  h4{
+    color: #535353;
+    text-align: center;
+  }
+
+li:hover{
+ background-color: #0EC8CB;
+ }
+ li{
+   box-sizing: border-box;
+   font-size: 17px;
+   text-align: center;
+   }
+
+ .s{
+   list-style: none;
+   font-family: “Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
+   text-align: center;
+   font-size: 0;
+   }
+
+.s li:nth-child(1){
+  text-align: center;
+  display: inline-block;
+  width: 25%;
+  color: #000000;
+  }
+  .s li:nth-child(2){
+    text-align: center;
+    display: inline-block;
+    color: #000000;
+    width: 25%;
+    }
+    .s li:nth-child(3){
+      text-align: center;
+      display: inline-block;
+      color: #000000;
+      width: 25%;
+      }
+      .s li:nth-child(4){
+        text-align: center;
+        display: inline-block;
+        color: #000000;
+        width: 25%;
+       }
+img:hover{
+  filter: invert(100%);
+  -webkit-filter: invert(100%);
+}
+h6{
+  color: #BDA6AC;
+  text-align: center;
+}
+
+ .high{
+   text-transform: uppercase;
+ }
+ .high1{
+   text-transform: uppercase;
+   font-weight: bold;
+ }
+
+.capitalize{
+  text-transform: capitalize;
+}
