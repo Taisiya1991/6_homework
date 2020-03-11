@@ -1,0 +1,162 @@
+*{
+  padding:0;
+  margin:0;
+}
+
+body{
+    font-family: Lucida, sans-serif; /* Семейство шрифтов */
+    font-size: 11pt; /* Размер основного шрифта в пунктах  */
+    background-color: #3399CC; /* Цвет фона веб-страницы */
+    text-align: justify;
+    border: 20px solid #2B81AC;
+    width: 866px;
+    height: 568px;
+  }
+
+  @font-face{
+    font-family: Lucida;
+    src: url(fonts/Lucida Sans Unicode Regular.ttf);
+    src: url(fonts/Lucida Grande Regular.ttf);
+  }
+  #header{
+    margin: auto;
+    color: #EB7E7F;
+  }
+
+  #container{
+  margin:auto;
+  margin-top: 30px;
+  width: 530px;
+  height: 420px;
+  }
+#weather{
+  box-sizing: border-box;
+  border: 4px solid color: #FFFDFA;
+}
+
+  h1{
+    font-family: Lucida, sans-serif; /* Семейство шрифтов */
+    font-weight: normal; /* Нормальное начертание текста  */
+    text-align: left;
+    color: #FFFFFF;
+    font-size: 130%;
+  }
+
+li:hover{
+ opacity: 0.4;
+ border: 2px solid #FFFFFF;
+ box-sizing: border-box;
+ }
+ li{
+   border: 2px solid #FFFFFF;
+   box-sizing: border-box;
+   font-size: 17px;
+   height:100px;
+   text-align: center;
+   padding-top: 21px;
+   line-height: 27px;
+    }
+
+ .cities{
+   list-style: none;
+   font-family: “Lucida”, sans-serif;
+   text-align: center;
+   font-size: 0;
+   border: 4px solid color: #FFFDFA;
+ }
+
+.cities li:nth-child(1){
+  text-align: center;
+  display: inline-block;
+  color: #FFFFFF;
+  width: 50%;
+  background-color: #3399CC;
+  }
+  .cities li:nth-child(2){
+    text-align: center;
+    display: inline-block;
+    color: #FFFFFF;
+    width: 25%;
+    background-color: #33CCCC;
+    }
+    .cities li:nth-child(3){
+      text-align: center;
+      display: inline-block;
+      color: #FFFFFF;
+      width: 25%;
+      background-color: #996699;
+      }
+      .cities li:nth-child(4){
+        text-align: center;
+        display: inline-block;
+        color: #FFFFFF;
+        width: 25%;
+       background-color: #C24747;
+        }
+        .cities li:nth-child(5){
+          text-align: center;
+          display: inline-block;
+          color: #FFFFFF;
+          width: 25%;
+          background-color: #E2674A;
+          }
+          .cities li:nth-child(6){
+            text-align: center;
+            display: inline-block;
+            color: #FFFFFF;
+            width: 25%;
+            background-color: #FFCC66;
+            }
+            .cities li:nth-child(7){
+              text-align: center;
+              display: inline-block;
+              color: #FFFFFF;
+              width: 25%;
+              background-color: #99CC99;
+              }
+              .cities li:nth-child(8){
+                text-align: center;
+                display: inline-block;
+                color: #FFFFFF;
+                width: 25%;
+                background-color: #669999;
+                }
+                .cities li:nth-child(9){
+                  text-align: center;
+                  display: inline-block;
+                  color: #FFFFFF;
+                  width: 50%;
+                  background-color: #CC6699;
+                  }
+                  .cities li:nth-child(10){
+                    text-align: center;
+                    display: inline-block;
+                    color: #FFFFFF;
+                    width: 25%;
+                   background-color: #339966;
+                    }
+                    .cities li:nth-child(11){
+                     text-align: center;
+                      display: inline-block;
+                      color: #FFFFFF;
+                      width: 100%;
+                      background-color: #666699;
+                      }
+li{
+  border: 2px solid color: #FFFFFF;
+}
+
+
+
+
+ .high{
+   text-transform: uppercase;
+ }
+.capitalize{
+  text-transform: capitalize;
+}
+  #footer{
+  text-align: left;
+  color: #FFFFFF;
+  font-size: 90%;
+  }
